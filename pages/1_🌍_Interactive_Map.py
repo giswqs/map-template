@@ -3,12 +3,12 @@ import leafmap.foliumap as leafmap
 
 markdown = """
 A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+<https://github.com/giswqs/map-template>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "https://i.gifer.com/embedded/download/4j.gif"
 st.sidebar.image(logo)
 
 

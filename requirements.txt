@@ -3,3 +3,4 @@ geopandas
 leafmap
 owslib
 streamlit
+geohey
