@@ -20,8 +20,6 @@ with st.expander("See source code"):
         m = leafmap.Map()
         before = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-07-01.tif"
         after = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-09-13.tif"
-        m.split_map(
-            left_layer=before, right_layer=after
-        )
+        m.split_map(left_layer=before, right_layer=after)
 
 m.to_streamlit(height=700)
